@@ -1,8 +1,8 @@
-# atm-service-application
+# Atm Service Application
 
 #Technology Stack
-Java 8
-Spring Boot 2.0.4
+- Java 8
+- Spring Boot 2.0.4
 
 #Build Tool
 Maven 3
@@ -16,10 +16,10 @@ This is a maven project, can be imported to your favorite IDE as a maven project
 
 #Test instruction
 - The code base includes an integration tests which are in ATMServiceIntegrationTest.java, in order to see the result of requirements, 
-  simply run each tests through and IDE. The implementation's logs print out each step result, please check logs on console.  
+  simply run each tests through and IDE. The implementation's logs print out every step's result, please check logs on console.  
 
 #Assumptions
-- Cash machine always has enough notes for disbursing, the logic in implementation does not check that the withdraw amount is payable by atm. 
+- Cash machine is fully functional and always has enough notes for disbursing, the logic in implementation does not check that the withdraw amount is payable by atm. 
 
 - Number of notes is always stable and enough to deliver to customer.   
 
